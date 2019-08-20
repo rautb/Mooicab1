@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Hello, nice to meet you!" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Arrive Faster with MooiCabs"
+        android:textSize="23dp"
+        android:textColor="#ffff8100"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/ph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/register"
+            android:hint="Enter your mobile number"
+            android:inputType="phone"
+            android:paddingLeft="28dp"
+            android:paddingTop="12dp"
+            android:paddingRight="28dp"
+            android:paddingBottom="12dp"
+            android:layout_marginLeft="7dp"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/but"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:layout_marginTop="46dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/for_reg"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="By creating an account, you agree to our\n Terms of Service and Privacy Policy" />
+</LinearLayout>
